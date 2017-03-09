@@ -10,5 +10,5 @@ import sys
 import os
 
 if  __name__  == '__main__':
-    appName = sys.argv
+    appName = sys.argv[1:]
     print appName
